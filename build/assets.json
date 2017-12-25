@@ -1,0 +1,50 @@
+{
+  "viewReport": {
+    "js": "/assets/viewReport.chunk.js"
+  },
+  "graphs": {
+    "js": "/assets/graphs.chunk.js"
+  },
+  "newTest": {
+    "js": "/assets/newTest.chunk.js"
+  },
+  "reports": {
+    "js": "/assets/reports.chunk.js"
+  },
+  "tests": {
+    "js": "/assets/tests.chunk.js"
+  },
+  "viewReports": {
+    "js": "/assets/viewReports.chunk.js"
+  },
+  "testUploaded": {
+    "js": "/assets/testUploaded.chunk.js"
+  },
+  "uploadError": {
+    "js": "/assets/uploadError.chunk.js"
+  },
+  "teachers": {
+    "js": "/assets/teachers.chunk.js"
+  },
+  "students": {
+    "js": "/assets/students.chunk.js"
+  },
+  "settings": {
+    "js": "/assets/settings.chunk.js"
+  },
+  "home": {
+    "js": "/assets/home.chunk.js"
+  },
+  "campus": {
+    "js": "/assets/campus.chunk.js"
+  },
+  "not-found": {
+    "js": "/assets/not-found.chunk.js"
+  },
+  "client": {
+    "js": "/assets/client.js"
+  },
+  "vendor": {
+    "js": "/assets/vendor.js"
+  }
+}

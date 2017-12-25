@@ -1,0 +1,66 @@
+/**
+ * React Starter Kit (https://www.reactstarterkit.com/)
+ *
+ * Copyright © 2014-present Kriasoft, LLC. All rights reserved.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.txt file in the root directory of this source tree.
+ */
+
+@import '../../components/variables.css';
+
+.root {
+  height: 100%;
+  /*padding-left: 20px;*/
+  /*padding-right: 20px;*/
+  /*background-color: rgba(0, 0, 0, 0.02);*/
+  background-color: #f9f9f9;
+}
+
+.container {
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding: 0 0 40px;
+  max-width: 750px;
+  height: calc(100% - 60px);
+}
+
+.title {
+  /*position: fixed;*/
+  background-color: white;
+  text-align: left;
+  width: calc(100%);
+  font-size: 1.5em;
+  padding-left: 60px;
+  padding-bottom: 10px;
+  padding-right: 60px;
+  padding-top: 15px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.2);
+  /*border-bottom: 1px solid #BBBBBB;*/
+  /*font-weight: bold*/
+}
+
+.loadingContainer {
+  height: 40;
+  width: 40;
+  margin-left: calc(50% - 20px);
+  margin-top: 100px;
+  padding: 0;
+}
+
+.link {
+  width: 200px;
+  font-size: '1em';
+  box-sizing: border-box;
+  color: white;
+  display: block;
+  text-decoration: none;
+}
+
+.link2 {
+  text-decoration: none;  
+}

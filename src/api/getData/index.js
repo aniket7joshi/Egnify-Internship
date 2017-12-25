@@ -1,0 +1,6 @@
+const controller = require('./getData.controller');
+const express = require('express');
+
+const router = express.Router();
+router.get('/fetchData', controller.fetchData);
+module.exports = router;

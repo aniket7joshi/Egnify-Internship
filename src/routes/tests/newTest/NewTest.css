@@ -1,0 +1,127 @@
+/**
+ * React Starter Kit (https://www.reactstarterkit.com/)
+ *
+ * Copyright © 2014-present Kriasoft, LLC. All rights reserved.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.txt file in the root directory of this source tree.
+ */
+
+@import '../../../components/variables.css';
+
+.root {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container {
+  text-align: center;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.formContainer {
+  /*text-align: left;*/
+  width: 300px;
+  position: relative;
+  left: calc(50% - 150px);
+  margin-top: 50px;
+}
+
+.title {
+  text-align: center;
+  width: 100%;
+  font-size: 1.5em;
+}
+
+.button {
+  border: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: #592dea;
+  width: 100%;
+  /*width: 300px;*/
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: '1em';
+  /*margin: 0 auto;*/
+}
+
+.uploadIconLeft {
+  cursor: pointer;
+  margin-left: 40px;
+  float: left;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid #eeeeee;
+}
+.uploadIconRight {
+  cursor: pointer;
+  margin-right: 40px;
+  float: right;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid #eeeeee;
+}
+
+.uploadMarksIcon {
+  position: relative;
+  left: 10px;
+  top: 5px;
+  height: 25px;
+  fill: #eeeeee;
+}
+
+.uploadMarksSVG {
+  fill: #eeeeee;
+}
+
+.uploadMarksSVG:hover {
+  fill: purple;
+}
+
+.uploadErrorIcon {
+  position: relative;
+  left: 10px;
+  top: 5px;
+  height: 25px;
+  fill: red;
+}
+
+.uploadErrorSVG {
+  fill: #eeeeee;
+}
+
+.uploadErrorSVG:hover {
+  fill: green;
+}
+
+.link {
+  display: block;
+  padding: 0.9em;
+  text-decoration: none;
+}
+
+.iconText {
+  position: relative;
+  width: 100px;
+  left: -30px;
+  top: 20px;
+  text-align: center;
+  font-size: 0.7em;
+}
+
+.uploadSection {
+  /*background-color: black;*/
+  text-align: center;
+}
+
+input[type=file] {
+  position: absolute;
+  opacity: 0;
+  z-index: -100;
+}

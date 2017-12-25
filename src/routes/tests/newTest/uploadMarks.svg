@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="5329.4 396 14 17">
+  <defs>
+    <style>
+      .uploadMarks {
+        fill: #ccc;
+      }
+    </style>
+  </defs>
+  <path id="path" class="uploadMarks" d="M600.4,363v-6h-4l7-7,7,7h-4v6Zm-4,2h14v2h-14Z" transform="translate(4733 46)"/>
+</svg>
